@@ -1,0 +1,83 @@
+/** zend layout start **
+body {
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.zf-green {
+    color: #68b604;
+}
+
+.btn-success {
+  background-color: #57a900;
+  background-image: -moz-linear-gradient(top, #70d900, #57a900);
+  background-image: -ms-linear-gradient(top, #70d900, #57a900);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#70d900), to(#57a900));
+  background-image: -webkit-linear-gradient(top, #70d900, #57a900);
+  background-image: -o-linear-gradient(top, #70d900, #57a900);
+  background-image: linear-gradient(top, #70d900, #57a900);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#70d900', endColorstr='#57a900', GradientType=0);
+}
+
+.btn-success:hover,
+.btn-success:active,
+.btn-success.active,
+.btn-success.disabled,
+.btn-success[disabled] {
+  background-color: #57a900;
+}
+
+.btn-success:active, .btn-success.active {
+  background-color: #57a900;
+}
+
+div.container a.brand {
+    background: url("../img/zf2-logo.png") no-repeat scroll 0 10px transparent;
+    margin-left: 0;
+    padding: 8px 20px 12px 40px;
+}
+/** zend layout end **/
+
+/* 全局属性 */
+*{font-family:"宋体",Arial,Helvetica,sans-serif;font-size:12px;}
+body{background-color:#e5edef;}
+body, div, ul, li, dl, dd, p, h1, h2, h3, form, p{margin:0px;padding:0px;}
+li{list-style:none outside none;}
+a{color:#0078B6;text-decoration:none;}
+a:hover{color:red;}
+a img{border:none;vertical-align:middle;}
+.fl{float:left;}
+em{font-style:normal;color:#c33;}
+.clear{clear:both;float:none;display:block;height:0;line-height:0;font-size:0}
+/* 头部 */
+#header{height:50px;background:#102A48 url(../img/header_bg.png) no-repeat;}
+#top{height:20px;background:#102A48 url(../img/header_bg.png) no-repeat 100% -50px;}
+.header{height:47px;padding:3px 0 0 10px;background:url(../img/header_bg.png) no-repeat 100% -50px;}
+.header h1{height:47px;float:left;}
+.header div{width:515px;height:47px;float:right;padding-right:16px;color:#fff;}
+.header div a,.header div a:hover{color:#fff;}
+.header div p{height:20px;padding-right:12px;line-height:20px;text-align:right;}
+.header div p a{padding-left:10px;color:#666;}
+.header div ul{height:25px;}
+.header div li{height:24px;float:left;padding:0 8px;line-height:24px;font-size:14px;}
+
+/* 登录 */
+#login_logo{width:80%;margin:0 auto 0 auto;padding-top:10px;}
+.logobg{width:80%;padding:10px 0 0 0;margin:auto;}
+.loginmain{width:960px;margin:0 auto 0 auto;position:relative;}
+.banner{width:100%;height:380px;margin:10px 0 120px 0;background:url(../img/banner.jpg) center no-repeat;}
+#login{width:360px;float:left;background:url(../img/login.png) repeat-y;position:absolute;top:0;left:500px;text-align:center;padding:0 30px;}
+#login .title{margin-top:10px;}
+#login .logbox{padding-top:15px;}
+#login .logh{text-align:left;color:#666666;margin-top:15px;padding:0;}
+#login .logh input{font-size:14px;}
+#login .logh a{font-size:14px;}
+#login .logh label{font-size:12px;color:#838383;margin-right:10px;}
+#login .logh span{width:80%;float:left;text-align:left;font-size:14px;line-height:28px;padding-left:22px;}
+#login .logh input{padding:4px;margin-left:22px;display:inline;font-size:14px;}
+#login .dlbtn{width:75px;height:30px;background: url(../img/login_sub.png);border:0;margin-top:10px;cursor:pointer;}
+#login .cue{float:left;width:310px;font-size:12px;text-align:left;padding:5px 0;margin:0 0 0 15px; display:inline;line-height:20px;color:#838383;}
+#login .cue img{margin-right:5px;}
+
+/* 底部 */
+#login_footer{margin:20px 20px 10px 20px;display:inline;float:left;width:300px;font-family: Arial,sans-serif;font-size: 12px;line-height: 100%;border-top: 1px solid #E2E5E8;clear: both;color: #666666;display: block;margin-bottom: 20px;padding: 10px;text-align: center;}
